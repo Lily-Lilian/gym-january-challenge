@@ -7,8 +7,8 @@ import menu from "../../public/assets/menu.svg";
 const Navbar = () => {
   return (
     <div>
-      <nav className="max-w-[1170px] mx-auto">
-        <div className="bg-blue flex gap-2 justify-end pr-[30px] py-2">
+      <nav className="">
+        <div className="bg-blue sm:px-4 px-20 sm:justify-start md:justify-start flex gap-2 justify-end pr-[30px] py-2">
           <p className="text-white text-sm">University of Stuttgart</p>
           <Image
             className="border border-white rounded-full"
@@ -16,10 +16,12 @@ const Navbar = () => {
             alt=""
           />
         </div>
-        <div className="flex justify-between items-center px-[30px] py-5">
+      </nav>
+      <nav className="f">
+        <div className="flex sm:px-4 px-20 bg-white justify-between items-center py-5">
           <Image src={logos} alt="logo-one" />
-          <div className="flex">
-            <Image src={search} alt="search" />
+          <div className="flex gap-4">
+            <Image className="sm:hidden" src={search} alt="search" />
             <Image src={menu} alt="menu" />
           </div>
         </div>

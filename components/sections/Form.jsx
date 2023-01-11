@@ -1,7 +1,7 @@
 const Form = () => {
   return (
     <div>
-      <div className="bg-beige max-w-[630px] mx-auto px-5 py-3 mt-10">
+      <div className="bg-beige  max-w-[630px] sm:max-w-[530px] mx-auto px-20 py-3 mt-10">
         <div class="mb-4 max-w-[582px]">
           <label for="email" class="block text-gray-700 font-medium mb-2">
             Begriff
@@ -14,7 +14,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <button className="bg-blue font-semibold mb-[15px] text-white py-[16px] px-[35px]">
+          <button className="bg-blue sm:py-2 sm:px-4 hover:bg-gray font-semibold mb-[15px] text-white py-[16px] px-[35px]">
             BEGRIFF SUCHEN
           </button>
         </div>
