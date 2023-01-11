@@ -8,8 +8,8 @@ const Informations = () => {
         <div className="flex flex-col space-y-8 max-w-[466px]">
           {[1, 2, 3, 4, 5, 6, 7].map((key) => {
             return (
-              <ul>
-                <li key={key} className="flex items-center gap-4">
+              <ul key={key}>
+                <li className="flex items-center gap-4">
                   <Image
                     className="border hover:bg-white sm:w-[60px] sm:h-[60px] sm:p-4 w-[130px] h-[130px] p-12 border-white rounded-full"
                     src={chevron}
@@ -32,9 +32,9 @@ const Informations = () => {
         <div className="flex flex-col space-y-8">
           {[1, 2, 3, 4, 5, 6, 7].map((key) => {
             return (
-              <div>
+              <div key={key}>
                 <ul>
-                  <li key={key} className="flex items-center gap-2">
+                  <li className="flex items-center gap-2">
                     <Image
                       className="border hover:bg-white sm:w-[60px] sm:h-[60px] sm:p-4 w-[130px] h-[130px] p-12 border-white rounded-full"
                       src={chevron}
