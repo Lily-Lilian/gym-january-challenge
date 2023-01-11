@@ -6,14 +6,14 @@ const Informations = () => {
     <div className="bg-blue text-white mt-12 px-20 sm:px-4">
       <div className="grid grid-cols-2 sm:grid-cols-1 gap-8 px-[40px] py-20 ">
         <div className="flex flex-col space-y-8 max-w-[466px]">
-          {[1, 2, 3, 4, 5, 6, 7].map(() => {
+          {[1, 2, 3, 4, 5, 6, 7].map((key) => {
             return (
               <ul>
-                <li className="flex items-center gap-4">
+                <li key={key} className="flex items-center gap-4">
                   <Image
                     className="border hover:bg-white sm:w-[60px] sm:h-[60px] sm:p-4 w-[130px] h-[130px] p-12 border-white rounded-full"
                     src={chevron}
-                    alt=""
+                    alt="chev"
                   />
                   <div className="flex flex-col">
                     <p className="text-[22px] sm:text-lg font-bold">
@@ -30,15 +30,15 @@ const Informations = () => {
           })}
         </div>
         <div className="flex flex-col space-y-8">
-          {[1, 2, 3, 4, 5, 6, 7].map(() => {
+          {[1, 2, 3, 4, 5, 6, 7].map((key) => {
             return (
               <div>
                 <ul>
-                  <li className="flex items-center gap-2">
+                  <li key={key} className="flex items-center gap-2">
                     <Image
                       className="border hover:bg-white sm:w-[60px] sm:h-[60px] sm:p-4 w-[130px] h-[130px] p-12 border-white rounded-full"
                       src={chevron}
-                      alt=""
+                      alt="c"
                     />
                     <div className="flex flex-col">
                       <p className="text-[22px] sm:text-lg font-bold text-left">

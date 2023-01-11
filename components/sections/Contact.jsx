@@ -9,7 +9,7 @@ const Contact = () => {
           <img
             className="rounded-full max-w-[150px]"
             src="https://www.beschaeftigte.uni-stuttgart.de/img-beschaeftigte/iz_mitarbeiter/Dezernat-Internationales-IZ.jpg?__scale=w:150,h:150,cx:0,cy:0,cw:2000,ch:2000"
-            alt=""
+            alt="name"
           />
           <div className="flex flex-col mt-8 gap-4  text-left">
             <p className="underline">Dezernat Internationales</p>
@@ -28,7 +28,7 @@ const Contact = () => {
           <img
             className="rounded-full max-w-[150px]"
             src="https://www.uni-stuttgart.de/studium/beratung/img-fachstudienberater/zsb_employee.jpg?__scale=w:150,h:150,cx:0,cy:0,cw:620,ch:620"
-            alt=""
+            alt="name"
           />
           <div className="flex flex-col mt-8 gap-4 underline text-left">
             <p>Dezernat Internationales</p>
@@ -41,7 +41,7 @@ const Contact = () => {
           <img
             className="rounded-full max-w-[150px]"
             src="https://www.uni-stuttgart.de/studium/beratung/img-fachstudienberater/zsb_employee.jpg?__scale=w:150,h:150,cx:0,cy:0,cw:620,ch:620"
-            alt=""
+            alt="name"
           />
           <div className="flex flex-col mt-8 gap-4 underline text-left">
             <p>Dezernat Internationales</p>

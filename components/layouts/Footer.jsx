@@ -49,8 +49,12 @@ const Footer = () => {
                 "Employees",
                 "Alumni and supporters",
                 "Industry",
-              ].map((item) => {
-                return <li className="underline">{item}</li>;
+              ].map((item, key) => {
+                return (
+                  <li key={key} className="underline">
+                    {item}
+                  </li>
+                );
               })}
             </ul>
           </div>
@@ -62,8 +66,12 @@ const Footer = () => {
                 "Privacy notice",
                 "Accessibility",
                 "Certificates",
-              ].map((item) => {
-                return <li className="underline">{item}</li>;
+              ].map((item, key) => {
+                return (
+                  <li key={key} className="underline">
+                    {item}
+                  </li>
+                );
               })}
             </ul>
           </div>
@@ -76,8 +84,12 @@ const Footer = () => {
                 "Jobs",
                 "Apply for a Doctorate or Postdoc",
                 "Uni-Shop",
-              ].map((item) => {
-                return <li className="underline">{item}</li>;
+              ].map((item, key) => {
+                return (
+                  <li key={key} className="underline">
+                    {item}
+                  </li>
+                );
               })}
             </ul>
           </div>
@@ -88,8 +100,12 @@ const Footer = () => {
                 "Faculties and Institutes",
                 "Facilities",
                 "Central Administration",
-              ].map((item) => {
-                return <li className="underline">{item}</li>;
+              ].map((item, key) => {
+                return (
+                  <li key={key} className="underline">
+                    {item}
+                  </li>
+                );
               })}
             </ul>
           </div>
