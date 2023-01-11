@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import chevron from "../../public/assets/chevron.svg";
 import logos from "../../public/assets/Logo_ Universität Stuttgart - zur Startseite.svg";
 import search from "../../public/assets/search.svg";
@@ -25,7 +26,9 @@ const Navbar = () => {
     <div>
       <nav className={`navbar1 ${!isVisible ? "hidden" : ""}`}>
         <div className="bg-blue sm:px-4 px-20 sm:justify-start md:justify-start flex gap-2 justify-end pr-[30px] py-2">
-          <p className="text-white text-sm">University of Stuttgart</p>
+          <Link href={"https://www.uni-stuttgart.de/"}>
+            <p className="text-white text-sm">University of Stuttgart</p>
+          </Link>
           <Image
             className="border border-white rounded-full"
             src={chevron}
