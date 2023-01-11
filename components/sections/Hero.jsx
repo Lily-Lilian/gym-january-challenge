@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div>
       <div className="max-w-[1170px] mx-auto flex sm:flex-col sm:px-4 relative px-20 gap-24 bg-blue_sky">
-        <div className="px-[30px] sm:px-4 sm:py-5 py-20 space-y-6  sm:space-y-2 flex flex-col">
+        <div className="px-[30px] sm:px-4 sm:py-40 py-40  space-y-6  sm:space-y-2 flex flex-col">
           <h1 className="text-[32px] sm:text-xl text-dark_gray font-bold">
             Students
           </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
             studies
           </p>
         </div>
-        <div className="sm:hidden uppercase group hover:bg-white absolute top-10 right-12 w-[270px] h-[270px] rounded-full bg-gray">
+        <div className="sm:hidden uppercase group hover:bg-white absolute top-48 right-12 w-[270px] h-[270px] rounded-full bg-gray">
           <div className="flex flex-col items-center  space-y-20">
             <p className="text-white group-hover:text-black hover:font-semibold font-bold max-w-[210px] text-left pt-28 text-sm">
               information for prospective students

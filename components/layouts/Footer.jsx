@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="bg-gray text-white pt-[50px]  pb-[15px] px-28 md:px-4 sm:px-4">
         <div className="flex md:flex-col sm:flex-col gap-10 sm:items-start md:items-start items-center pb-[60px]">
           <Image src={logo} alt="logo" />
-          <ul className="flex md:flex-col sm:flex-col gap-6 mt-4">
+          <ul className="flex sm:flex-wrap sm:justify-center sm:gap-8 gap-6 mt-4">
             <li>
               <Image className="max-w-[30px] " src={faceb} alt="faceb" />
               <p>Facebook</p>
