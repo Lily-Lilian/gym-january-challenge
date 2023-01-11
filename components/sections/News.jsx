@@ -27,7 +27,7 @@ const News = () => {
               alt="woman"
             />
             <h1 className="text-[22px]">
-              The University of Stuttgart's five most beautiful Instagram
+              The University of Stuttgarts five most beautiful Instagram
               pictures
             </h1>
             <span className="text-[10px]">12/21/22</span>
@@ -125,7 +125,7 @@ const News = () => {
               alt="woman"
             />
             <h1 className="text-[22px]">
-              The University of Stuttgart's five most beautiful Instagram
+              The University of Stuttgarts five most beautiful Instagram
               pictures
             </h1>
             <span className="text-[15px]">12/21/22</span>

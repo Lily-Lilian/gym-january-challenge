@@ -6,9 +6,9 @@ const Programs = () => {
     <div>
       <div className="mt-[25px] px-20">
         <div className="grid grid-cols-3 md:grid-cols-1  sm:grid-cols-1 gap-4">
-          {[1, 2, 3].map(() => {
+          {[1, 2, 3].map((key) => {
             return (
-              <div className="flex flex-col justify-center gap-4">
+              <div key={key} className="flex flex-col justify-center gap-4">
                 <img
                   className="max-w-[293px]"
                   src="https://www.student.uni-stuttgart.de/img/easydb-2019_11_20_Unitag_118.jpg?__scale=w:370,h:370,cx:332,cy:0,cw:1335,ch:1335"
@@ -33,7 +33,7 @@ const Programs = () => {
         </div>
         <div className="flex justify-center my-20">
           <button className="uppercase hover:bg-gray bg-blue font-semibold mb-[15px] text-white py-[16px] px-[35px]">
-            study programs'webpages for students
+            study programs webpages for students
           </button>
         </div>
       </div>
