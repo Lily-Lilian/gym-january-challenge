@@ -16,9 +16,12 @@ const Programs = () => {
                 />
                 <p className="text-lg text-gray">Digital services</p>
                 <ul className="flex flex-col items-center space-y-4">
-                  {[1, 2, 3, 4, 5].map(() => {
+                  {[1, 2, 3, 4, 5].map((key) => {
                     return (
-                      <li className="flex hover:underline items-center gap-1">
+                      <li
+                        key={key}
+                        className="flex hover:underline items-center gap-1"
+                      >
                         <Image src={chev} alt="chevron" />
                         <p className="text-blue">
                           C@MPUS - campus management and lectures

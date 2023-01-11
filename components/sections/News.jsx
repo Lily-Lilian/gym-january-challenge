@@ -42,8 +42,8 @@ const News = () => {
             />
             <div className="bg-white flex flex-col space-y-4 hover:bg-blue_sky py-5 px-[30px]">
               <h1 className="text-[22px]">
-                Latest episode: "Intelligent systems will help us in crises and
-                in the future"
+                Latest episode:Intelligent systems will help us in crises and in
+                the future
               </h1>
               <span className="text-[10px]">12/21/22</span>
             </div>
@@ -138,8 +138,8 @@ const News = () => {
             />
             <div className="bg-white flex flex-col space-y-4 hover:bg-blue_sky py-5 px-[30px]">
               <h1 className="text-[22px]">
-                Latest episode: "Intelligent systems will help us in crises and
-                in the future"
+                Latest episode:Intelligent systems will help us in crises and in
+                the future
               </h1>
               <span className="text-[15px]">12/21/22</span>
             </div>
